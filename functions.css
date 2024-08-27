@@ -1,0 +1,66 @@
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+input:hover{
+    border:2px solid blue;
+}
+input:focus{
+    background-color: rgba(191, 255, 226, 0.92);
+}
+button:focus{
+    color: red;
+}
+button:active  {
+    background-color: #23ce6b;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+button:visited{
+    background-color: red;
+}
+h1{
+    width: 350px;
+    height: 30px;
+    border: 2px solid rgb(8, 32, 32);
+    border-radius: 24px;
+    color: white;
+}
+.wholediv{
+    backdrop-filter: blur(20px);
+    width: 500px;
+    height: 250px;
+    border: 2px solid red;
+    padding-top: 50px;
+    border-radius: 24px;
+    margin-top: 150px;
+}
+label{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+body{
+  background-image: url(../images/slide2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+h2{
+    display:inline-block;
+    position: relative;
+    left: 1300px;
+    top: 600px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
